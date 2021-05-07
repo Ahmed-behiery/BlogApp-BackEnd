@@ -14,6 +14,7 @@ const postRouter = require("./routes/postRoute");
 
 // Database Connectivity
 dbConnection();
+
   
 app.use(cors());
 
