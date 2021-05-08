@@ -5,8 +5,6 @@ var bodyParser = require("body-parser");
 
 const port = process.env.PORT || 3000;
 
-const cloudinary = require("cloudinary").v2;
-
 const dbConnection = require("./database/connection");
 
 const userRouter = require("./routes/userRoute");

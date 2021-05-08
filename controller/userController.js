@@ -136,7 +136,6 @@ module.exports.followingPosts = async (req, res) => {
       path: "author",
       select: ["firstName", "userName"],
     });
-    
 
     res.status(200).send(allFollowingPosts);
   } catch (error) {
